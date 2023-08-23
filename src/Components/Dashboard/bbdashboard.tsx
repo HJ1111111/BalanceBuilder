@@ -1,24 +1,6 @@
 export const Dashboard = () => {
   return (
     <div>
-      &nbsp;
-      <div className="searchbox">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="1 0 20 20"
-          fill="none"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M8.33335 3.33332C5.57193 3.33332 3.33335 5.5719 3.33335 8.33332C3.33335 11.0947 5.57193 13.3333 8.33335 13.3333C11.0948 13.3333 13.3334 11.0947 13.3334 8.33332C13.3334 5.5719 11.0948 3.33332 8.33335 3.33332ZM1.66669 8.33332C1.66669 4.65143 4.65146 1.66666 8.33335 1.66666C12.0153 1.66666 15 4.65143 15 8.33332C15 9.87392 14.4775 11.2925 13.5999 12.4214L18.0893 16.9107C18.4147 17.2362 18.4147 17.7638 18.0893 18.0892C17.7638 18.4147 17.2362 18.4147 16.9108 18.0892L12.4214 13.5999C11.2925 14.4774 9.87395 15 8.33335 15C4.65146 15 1.66669 12.0152 1.66669 8.33332Z"
-            fill="#617177"
-          />
-        </svg>
-        Search for assets by name - you’ll be redirected to the diagram view
-      </div>
       <div className="questionicon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -47,6 +29,24 @@ export const Dashboard = () => {
           />
         </svg>
       </div>
+      <div className="searchbox">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="1 0 20 20"
+          fill="none"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M8.33335 3.33332C5.57193 3.33332 3.33335 5.5719 3.33335 8.33332C3.33335 11.0947 5.57193 13.3333 8.33335 13.3333C11.0948 13.3333 13.3334 11.0947 13.3334 8.33332C13.3334 5.5719 11.0948 3.33332 8.33335 3.33332ZM1.66669 8.33332C1.66669 4.65143 4.65146 1.66666 8.33335 1.66666C12.0153 1.66666 15 4.65143 15 8.33332C15 9.87392 14.4775 11.2925 13.5999 12.4214L18.0893 16.9107C18.4147 17.2362 18.4147 17.7638 18.0893 18.0892C17.7638 18.4147 17.2362 18.4147 16.9108 18.0892L12.4214 13.5999C11.2925 14.4774 9.87395 15 8.33335 15C4.65146 15 1.66669 12.0152 1.66669 8.33332Z"
+            fill="#617177"
+          />
+        </svg>
+        Search for assets by name - you’ll be redirected to the diagram view
+      </div>
+
       <div className="wave">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -93,12 +93,13 @@ export const Dashboard = () => {
         </svg>
       </div>
       <div className="greeting">Hello, Ben Van Loovere</div>
+
       <line className="line">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1540"
+          width="1574"
           height="2"
-          viewBox="0 0 700 1"
+          viewBox="0 0 1430 2"
           fill="none"
         >
           <path d="M1 1H1573" stroke="#BAC1C4" stroke-linecap="round" />

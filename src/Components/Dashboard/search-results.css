@@ -1,0 +1,164 @@
+.Searchresultsframe {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.Searchresultsframeheader {
+  width: 472px;
+  height: 26px;
+  flex-shrink: 0;
+  padding: 15px 75px;
+  position: absolute;
+}
+
+.Searchresultsframeheadertext {
+  color: #000;
+
+  /* typography/set/h3 - bold */
+  font-family: TT Norms Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 144.444% */
+}
+
+.Searchresultssearchbox {
+  display: flex;
+  width: 538px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  padding: 10px 12px;
+  align-items: center;
+  margin-left: 4.4%;
+  margin-top: 2%;
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-border, #e1e4e6);
+  background: var(--theme-neutral-bg, #fff);
+  color: var(--colors-neutral-fg-muted, #617177);
+
+  /* typography/text/sm/regular */
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px; /* 142.857% */
+}
+
+.Searchresultsframe2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 3px 75px;
+
+  color: #000;
+
+  /* typography/set/body - normal */
+  font-family: TT Norms Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px; /* 150% */
+}
+
+.Searchresultsgrid {
+  display: flex;
+  width: 1710px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-left: 4.4%;
+}
+
+.Searchresultscard {
+  display: flex;
+  width: 380px;
+  padding: 10px 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 86px;
+
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--colors-gray-100, #e1e4e6);
+}
+
+.Searchresultscardheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.Searchresultscardh1text {
+  /* typography/0-Recommended/H3 - Bold */
+  font-family: TT Norms Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 144.444% */
+  margin-top: 1%;
+  margin-right: 18%;
+}
+
+.Searchresultscardicons {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Searchresultscardh1button {
+  display: flex;
+  padding: 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-border, #e1e4e6);
+  background: var(--colors-neutral-bg-surface, #fff);
+  height: 15px;
+  color: var(--colors-neutral-fg, #171f22);
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}
+
+.card5bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.badge1noshadow {
+  display: flex;
+  height: 25px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: var(--colors-primary-bg-subtle, #fceae3);
+}
+
+.badge1noshadowtext {
+  color: var(--colors-primary-fg-on-subtle, #e75420);
+  text-align: center;
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+}

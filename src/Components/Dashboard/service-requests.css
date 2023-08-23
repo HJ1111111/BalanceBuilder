@@ -3,7 +3,7 @@
   width: 1630px;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 10px 1137px;
+  gap: 1px 1137px;
   flex-wrap: wrap;
 }
 
@@ -23,7 +23,7 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; /* 133.333% */
+  line-height: 10px; /* 133.333% */
 }
 
 .linebreak {
@@ -73,8 +73,8 @@
 .seehistory {
   display: flex;
   align-items: flex-start;
-  position: absolute;
-  right: 59px;
+  position: relative;
+  left: 1180px;
 }
 
 .seehistorybase {
@@ -106,10 +106,11 @@
 
 .SRcardframe {
   display: flex;
-  width: 1630px;
+  width: 150px;
   align-items: flex-start;
-  gap: 17px;
+  gap: 20px;
   flex-shrink: 0;
+  margin-left: 4%;
 }
 
 .SRcard1 {
@@ -134,6 +135,14 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 1px;
+  align-self: stretch;
+}
+
+.SRcardh2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
   align-self: stretch;
 }
 
@@ -171,11 +180,12 @@
 }
 
 .pendingicon {
-  display: flex;
+  display: inline-block;
   width: 16px;
   height: 16px;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .pendingtext {
@@ -248,6 +258,15 @@
   justify-content: space-between;
   gap: 15px;
   align-self: stretch;
+}
+
+.card3bottom {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  align-self: stretch;
+  margin-top: 3.5%;
 }
 
 .regionxyz {

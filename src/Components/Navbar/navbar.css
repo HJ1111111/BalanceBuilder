@@ -1,11 +1,11 @@
 .mainnavbar {
   display: flex;
-  width: 1505px;
-  height: 55px;
+  width: 1728px;
+  height: 60px;
   padding: 19px 45px 21px 72px;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
-  gap: 600px;
+  gap: 850px;
   flex-shrink: 0;
   background: var(--colors-base-white, #fff);
 
