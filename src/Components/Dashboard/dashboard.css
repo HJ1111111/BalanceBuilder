@@ -22,11 +22,12 @@
 }
 
 .line {
-  width: 1572px;
+  width: 1740px;
   height: 0px;
   flex-shrink: 0;
   stroke-width: 1px;
   stroke: var(--colors-gray-200, #bac1c4);
+  margin-top: 2%;
 }
 
 .searchbox {

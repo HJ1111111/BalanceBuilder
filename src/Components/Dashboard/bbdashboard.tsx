@@ -64,18 +64,7 @@ export const Dashboard = () => {
         Search for assets by name - you’ll be redirected to the diagram view
       </div>
       <p className="greeting">Hello, Ben Van Loovere</p>
-
-      <span className="line">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="1970"
-          height="1"
-          viewBox="0 0 1574 1"
-          fill="none"
-        >
-          <path d="M1 1H1573" stroke="#BAC1C4" stroke-linecap="round" />
-        </svg>
-      </span>
+      <hr className="line"></hr>
 
       <div className="header">
         <p className="qstext">Quick select</p>

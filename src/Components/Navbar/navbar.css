@@ -57,7 +57,7 @@
   border-radius: 8px;
   background: var(--colors-neutral-bg-surface, #fff);
 }
-
+/* 
 .account {
   display: flex;
   width: 190px;
@@ -75,12 +75,49 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 142.857% */
-}
 
-.accountbutton {
+/* .accountbutton {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 4px;
   border-radius: 8px;
+} */
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.dropdownbutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-border, #e1e4e6);
+  background: var(--colors-neutral-bg-surface, #fff);
+}
+
+.dropdownbuttontext {
+  color: var(--colors-neutral-fg, #171f22);
+
+  /* typography/text/sm/medium */
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.dropdownbuttonicon {
+  display: inline-flex;
+  width: 35px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }

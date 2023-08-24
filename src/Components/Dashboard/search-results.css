@@ -105,6 +105,17 @@
   margin-right: 18%;
 }
 
+.Searchresultscardh2text {
+  /* typography/0-Recommended/H3 - Bold */
+  font-family: TT Norms Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 144.444% */
+  margin-top: 1%;
+  margin-right: 40%;
+}
+
 .Searchresultscardicons {
   display: flex;
   width: 24px;
@@ -161,4 +172,60 @@
   font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
+}
+
+.pagination {
+  display: flex;
+  width: 488px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.paginationnumbers {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.paginationnumbers1 {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--colors-neutral-bg-surface-hover, #f5f6f7);
+
+  color: var(--colors-neutral-fg, #171f22);
+  text-align: center;
+
+  /* typography/text/sm/medium */
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.paginationnumbers2 {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 10px 12px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--colors-neutral-bg-surface, #fff);
+  color: var(--colors-neutral-fg, #171f22);
+  text-align: center;
+
+  /* typography/text/sm/medium */
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
 }

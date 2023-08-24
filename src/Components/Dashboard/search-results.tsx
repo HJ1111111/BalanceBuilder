@@ -160,7 +160,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region A</p>
+            <p className="Searchresultscardh2text">Region A</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -205,7 +205,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region B</p>
+            <p className="Searchresultscardh2text">Region B</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -250,7 +250,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region C</p>
+            <p className="Searchresultscardh2text">Region C</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -295,7 +295,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region D</p>
+            <p className="Searchresultscardh2text">Region D</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -340,7 +340,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region W</p>
+            <p className="Searchresultscardh2text">Region W</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -385,7 +385,7 @@ export const SearchResults = () => {
                 />
               </svg>
             </div>
-            <p className="Searchresultscardh1text">Region X</p>
+            <p className="Searchresultscardh2text">Region X</p>
             <div className="Searchresultscardh1button">
               Go to region
               <div className="pendingicon">
@@ -472,6 +472,12 @@ export const SearchResults = () => {
               </div>
               <p className="regionxyztext">Region XYZ</p>
             </label>
+          </div>
+        </div>
+        <div className="pagination">
+          <div className="paginationnumbers">
+            <p className="paginationnumbers1">1</p>
+            <p className="paginationnumbers2">2</p>
           </div>
         </div>
       </section>
