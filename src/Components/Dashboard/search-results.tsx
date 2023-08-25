@@ -478,6 +478,11 @@ export const SearchResults = () => {
           <div className="paginationnumbers">
             <p className="paginationnumbers1">1</p>
             <p className="paginationnumbers2">2</p>
+            <p className="paginationnumbers2">3</p>
+            <p className="paginationnumbers2">...</p>
+            <p className="paginationnumbers2">8</p>
+            <p className="paginationnumbers2">9</p>
+            <p className="paginationnumbers2">Next </p>
           </div>
         </div>
       </section>
