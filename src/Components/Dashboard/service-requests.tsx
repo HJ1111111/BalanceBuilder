@@ -1,3 +1,4 @@
+import React from "react";
 export const ServiceRequests = () => {
   return (
     <section className="SR">
