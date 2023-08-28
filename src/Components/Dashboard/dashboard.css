@@ -21,6 +21,15 @@
   margin-top: 1%;
 }
 
+.questioniconstyle {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 60%;
+}
 .line {
   width: 1740px;
   height: 0px;

@@ -1,3 +1,5 @@
+import Questionicon from "../../iconComponents/question";
+
 export const Dashboard = () => {
   return (
     <div>
@@ -45,6 +47,10 @@ export const Dashboard = () => {
             stroke-linejoin="round"
           />
         </svg>
+      </div>
+      <div className="questioniconstyle">
+        {" "}
+        <Questionicon />
       </div>
       <div className="searchbox">
         <svg
