@@ -1,3 +1,4 @@
+import React from "react";
 import Questionicon from "../../iconComponents/question";
 
 export const Dashboard = () => {

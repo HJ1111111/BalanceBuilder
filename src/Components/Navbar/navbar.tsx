@@ -1,5 +1,5 @@
+import React from "react";
 import Balancebuildersvg from "../../iconComponents/balancebuilder";
-
 export const Navbar = () => {
   return (
     <div className="mainnavbar">
