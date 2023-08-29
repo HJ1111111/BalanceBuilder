@@ -17,15 +17,11 @@ export const Dashboard = () => {
       </div>
       <text className="greeting">Hello, Ben Van Loovere</text>
          
-      <input className="searchbox"  placeholder="Search for assets by name - you’ll be redirected to the diagram view" onChange={event => setQuery(event.target.value)} />
 
-<<<<<<< HEAD
       <div className="questioniconstyle">
         <Questionicon />
       </div>
-=======
       <input className="searchbox" placeholder="Search for assets by name - you’ll be redirected to the diagram view" onChange={event => setQuery(event.target.value)} />
->>>>>>> 5463b671a469126568a8a6908d07010295c562de
 
       <div className="questioniconstyle">
         <Questionicon />
