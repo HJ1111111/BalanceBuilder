@@ -48,26 +48,12 @@ export const Dashboard = () => {
           />
         </svg>
       </div>
+      <text className="greeting">Hello, Ben Van Loovere</text>
+         
+      <input className="searchbox" placeholder="Search for assets by name - you’ll be redirected to the diagram view" onChange={event => setQuery(event.target.value)} />
+
       <div className="questioniconstyle">
-        {" "}
         <Questionicon />
-      </div>
-      <div className="searchbox">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="1 0 20 20"
-          fill="none"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M8.33335 3.33332C5.57193 3.33332 3.33335 5.5719 3.33335 8.33332C3.33335 11.0947 5.57193 13.3333 8.33335 13.3333C11.0948 13.3333 13.3334 11.0947 13.3334 8.33332C13.3334 5.5719 11.0948 3.33332 8.33335 3.33332ZM1.66669 8.33332C1.66669 4.65143 4.65146 1.66666 8.33335 1.66666C12.0153 1.66666 15 4.65143 15 8.33332C15 9.87392 14.4775 11.2925 13.5999 12.4214L18.0893 16.9107C18.4147 17.2362 18.4147 17.7638 18.0893 18.0892C17.7638 18.4147 17.2362 18.4147 16.9108 18.0892L12.4214 13.5999C11.2925 14.4774 9.87395 15 8.33335 15C4.65146 15 1.66669 12.0152 1.66669 8.33332Z"
-            fill="#617177"
-          />
-        </svg>
-        Search for assets by name - you’ll be redirected to the diagram view
       </div>
       <p className="greeting">Hello, Ben Van Loovere</p>
       <hr className="line"></hr>
