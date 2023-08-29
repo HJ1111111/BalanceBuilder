@@ -1,6 +1,9 @@
 import Questionicon from "../../iconComponents/question";
+import { useState } from "react";
 
 export const Dashboard = () => {
+  const [query, setQuery] = useState("")
+
   return (
     <div>
       <div className="wave">
@@ -55,7 +58,6 @@ export const Dashboard = () => {
       <div className="questioniconstyle">
         <Questionicon />
       </div>
-      <p className="greeting">Hello, Ben Van Loovere</p>
       <hr className="line"></hr>
 
       <div className="header">
