@@ -38,6 +38,7 @@
   stroke-width: 1px;
   stroke: var(--colors-gray-200, #bac1c4);
   margin-top: 2%;
+<<<<<<< HEAD
 }
 
 .searchboxicon{
@@ -47,6 +48,8 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+=======
+>>>>>>> 5463b671a469126568a8a6908d07010295c562de
 }
 
 .searchbox {
