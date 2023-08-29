@@ -2,22 +2,26 @@ import React from "react";
 import Questionicon from "../../iconComponents/question";
 import Wave from "../../iconComponents/wave";
 import Search from "../../iconComponents/search";
+import { useState } from "react";
+
+
 
 export const Dashboard = () => {
+  const [query, setQuery] = useState("")
+
   return (
     <section>
+
       <div className="wave">
         <Wave />
       </div>
       <text className="greeting">Hello, Ben Van Loovere</text>
+         
+      <input className="searchbox"  placeholder="Search for assets by name - you’ll be redirected to the diagram view" onChange={event => setQuery(event.target.value)} />
 
-      <div className="searchbox">
-        <Search/>
-        Search for assets by name - you’ll be redirected to the diagram view
-      </div>
-      <i className="questioniconstyle">
+      <div className="questioniconstyle">
         <Questionicon />
-      </i>
+      </div>
 
       <hr className="line"></hr>
 
