@@ -8,13 +8,16 @@ import "../src/Components/Dashboard/dashboard.css";
 import "../src/Components/Dashboard/service-requests.css";
 import "../src/Components/Dashboard/search-results.css";
 
+import { Card } from "./Components/Card/card";
+
 function App() {
   return (
     <div>
       <Navbar />
       <Dashboard />
       &nbsp;
-      <ServiceRequests />
+      {/* <ServiceRequests /> */}
+<Card/>
       <SearchResults />
     </div>
   );

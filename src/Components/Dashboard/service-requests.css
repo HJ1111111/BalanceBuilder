@@ -106,22 +106,22 @@
 
 .SRcardframe {
   display: flex;
-  width: 150px;
+  width: 1550px;
   align-items: flex-start;
   gap: 20px;
   flex-shrink: 0;
   margin-left: 4%;
+  flex-direction: row;
 }
 
 .SRcard1 {
   display: flex;
-  width: 380px;
+  width: 350px;
   padding: 10px 14px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
   flex-shrink: 0;
-  margin-left: 4.5%;
   border-radius: 8px;
   border: 1px solid var(--colors-neutral-border, #e1e4e6);
   background: var(--colors-gray-100, #e1e4e6);
@@ -215,7 +215,15 @@
   border-radius: 12px;
   background: var(--colors-error-bg-subtle, #f9e3e3);
   height: 15px;
-  margin-top: -10px;
+  color: var(--colors-error-fg-on-subtle, #cc1d1d);
+  text-align: center;
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
 }
 
 .statusalerttext {
@@ -239,6 +247,14 @@
   border-radius: 8px;
   background: var(--colors-primary-bg-surface, #e75420);
   height: 15px;
+  color: var(--colors-primary-fg-on-surface, #fff);
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
 }
 
 .substationbuttontext {
@@ -266,7 +282,7 @@
   justify-content: flex-start;
   gap: 15px;
   align-self: stretch;
-  margin-top: 3.5%;
+  margin-top: 3.2%;
 }
 
 .regionxyz {
@@ -279,6 +295,15 @@
   border: 0px solid var(--colors-orange-500, #e75420);
   background: var(--colors-neutral-bg-subtle, #f5f6f7);
   margin-right: 45px;
+  color: var(--colors-neutral-fg-on-subtle, #171f22);
+  text-align: center;
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1px; /* 133.333% */
 }
 
 .regionxyztext {
