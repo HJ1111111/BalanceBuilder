@@ -1,0 +1,123 @@
+.mainnavbar {
+  display: flex;
+  width: 1728px;
+  height: 60px;
+  padding: 19px 45px 21px 72px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 850px;
+  flex-shrink: 0;
+  background: var(--colors-base-white, #fff);
+
+  box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.sbutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--colors-neutral-bg-surface, #fff);
+}
+
+.rbutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--colors-neutral-bg-surface, #fff);
+}
+
+.gbutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: var(--colors-neutral-bg-surface, #fff);
+}
+/* 
+.account {
+  display: flex;
+  width: 190px;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.accountlabel {
+  color: var(--colors-neutral-fg-muted, #617177);
+
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+
+/* .accountbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+} */
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.dropdownbutton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--colors-neutral-border, #e1e4e6);
+  background: var(--colors-neutral-bg-surface, #fff);
+}
+
+.dropdownbuttontext {
+  color: var(--colors-neutral-fg, #171f22);
+
+  /* typography/text/sm/medium */
+  font-family: TT Norms Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+
+.dropdownbuttonicon {
+  display: inline-flex;
+  width: 35px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
