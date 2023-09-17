@@ -76,29 +76,36 @@ return(
         </div>
       </div>
       
-    {CardList.map((item, index) => (
+        <div className="row">
+        {CardList.map((item, index)=> (
+    
+    
         <div key={index}>
-            <div className="SRcardframe">
-            <div className="SRcard1">
-                
-            <div className="SRcardh1">{item.icon}{item.title}</div>
+        <section className="SRcardframe">
+        <div className="SRcard1">
 
-            <div className="statuslabel">
+        <div className="SRcardh1">{item.icon}{item.title}                 
+        <div className="pendingbadge">{item.pendingicon}{item.pending}</div>
+        </div>
+        
+        <div className="statuslabel">
         {item.alerticon} {item.alerttext}</div>
 
         <div className="substationbutton">{item.substationbtn}
         {item.substationbtnicon}</div>
         
         <div className="card1bottom">
+          <div className="badge1arraycards">Zone S</div>
             <div className="regionxyz"> Region XYZ</div>
         </div>
             </div>
+        </section>
         </div>
-        </div>
+        
     )
-    
+
     )}
-    </>
+    </div></>
 )
   };
   

@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   gap: 14px;
-  padding: 0px 75px;
+  padding: 0px 65px;
 }
 
 .SRtext {
@@ -107,21 +107,28 @@
 .SRcardframe {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
-  flex-shrink: 0;
-  margin-left: 4%;
+  flex-direction: row;
+  gap: 17px;
+  margin-left: 10%;
   margin-top: 1%;
+  
+}
+
+.row{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
 
 }
 
 .SRcard1 {
   display: flex;
-  width: 380px;
   padding: 10px 14px;
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
   gap: 20px;
   flex-shrink: 0;
+
   border-radius: 8px;
   border: 1px solid var(--colors-neutral-border, #e1e4e6);
   background: var(--colors-gray-100, #e1e4e6);
@@ -134,7 +141,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 4px;
+  gap: 5px;
   align-self: stretch;
   color: #000;
 
@@ -187,6 +194,16 @@
   border-radius: 12px;
   background: var(--colors-yellow-50, #fff7df);
   height: 15px;
+
+  color: var(--colors-yellow-600, #d29f00);
+  text-align: center;
+
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
 }
 
 .pendingicon {
@@ -281,7 +298,7 @@
 .card1bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 15px;
   align-self: stretch;
 }
@@ -297,14 +314,14 @@
 
 .regionxyz {
   display: flex;
-  padding: 1px 8px;
+  padding: 12px 8px;
   justify-content: center;
   align-items: center;
   gap: 4px;
   border-radius: 12px;
   border: 0px solid var(--colors-orange-500, #e75420);
   background: var(--colors-neutral-bg-subtle, #f5f6f7);
-  margin-right: 45px;
+  margin-right: 230px;
   color: var(--colors-neutral-fg-on-subtle, #171f22);
   text-align: center;
 
@@ -314,6 +331,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 1px; /* 133.333% */
+
 }
 
 .regionxyztext {
@@ -334,4 +352,13 @@
   align-items: center;
   gap: 8px;
   border-radius: 8px;
+
+  color: var(--colors-neutral-fg-muted, #617177);
+
+/* typography/text/xs/medium */
+font-family: TT Norms Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
 }
