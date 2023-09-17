@@ -241,3 +241,24 @@
   border-radius: 8px;
   background: var(--colors-neutral-bg-surface, #fff);
 }
+
+.regionxyz2 {
+  display: flex;
+  padding: 2px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  border: 0px solid var(--colors-orange-500, #e75420);
+  background: var(--colors-neutral-bg-subtle, #f5f6f7);
+  color: var(--colors-neutral-fg-on-subtle, #171f22);
+  text-align: center;
+  height: 20px;
+  /* typography/text/xs/medium */
+  font-family: TT Norms Pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1px; /* 133.333% */
+
+}
