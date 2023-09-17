@@ -84,6 +84,7 @@ return(
         <section className="SRcardframe">
         <div className="SRcard1">
 
+
         <div className="SRcardh1">{item.icon}{item.title}                 
         <div className="pendingbadge">{item.pendingicon}{item.pending}</div>
         </div>
@@ -98,6 +99,8 @@ return(
           <div className="badge1arraycards">Zone S</div>
             <div className="regionxyz"> Region XYZ</div>
         </div>
+        <div className="otherbalancesaffected">{item.balancesicon} {item.balances}</div>
+
             </div>
         </section>
         </div>

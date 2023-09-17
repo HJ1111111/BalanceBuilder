@@ -109,20 +109,20 @@
   align-items: flex-start;
   flex-direction: row;
   gap: 17px;
-  margin-left: 10%;
-  margin-top: 1%;
-  
+  margin-left: 14%;
 }
 
 .row{
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-
+align-items: center;
 }
 
 .SRcard1 {
   display: flex;
+  width: 400px;
+  height: 170px;
   padding: 10px 14px;
   align-items: flex-start;
   flex-direction: column;
@@ -140,7 +140,7 @@ justify-content: space-evenly;
 .SRcardh1 {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 5px;
   align-self: stretch;
   color: #000;
@@ -151,8 +151,13 @@ justify-content: space-evenly;
   font-style: normal;
   font-weight: 700;
   line-height: 1px; /* 144.444% */
-  width: 260px;
-  margin-top: 3.5%;
+}
+
+.cardheader{
+  display: flex;
+  align-items: flex-start;
+  gap: 104px;
+  align-self: stretch;
 }
 
 .SRcardh2 {
@@ -193,8 +198,7 @@ justify-content: space-evenly;
   gap: 4px;
   border-radius: 12px;
   background: var(--colors-yellow-50, #fff7df);
-  height: 15px;
-
+  margin-left: 33%;
   color: var(--colors-yellow-600, #d29f00);
   text-align: center;
 
@@ -298,9 +302,10 @@ justify-content: space-evenly;
 .card1bottom {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 15px;
+  justify-content: start;
+  gap: 12px;
   align-self: stretch;
+
 }
 
 .card3bottom {
@@ -347,14 +352,14 @@ justify-content: space-evenly;
 }
 
 .otherbalancesaffected {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
+  gap: 3px;
   border-radius: 8px;
-
   color: var(--colors-neutral-fg-muted, #617177);
-
+  margin-top: -40px;
+  margin-left: 250px;
 /* typography/text/xs/medium */
 font-family: TT Norms Pro;
 font-size: 12px;
