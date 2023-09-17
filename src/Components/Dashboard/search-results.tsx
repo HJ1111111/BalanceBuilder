@@ -122,7 +122,7 @@ export const SearchResults = () => {
             <label className="badge3">
               <p className="badge3text">Zone N</p>
             </label>
-            <label className="regionxyz">
+            <label className="regionxyz2">
               <div className="pendingicon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -454,7 +454,7 @@ export const SearchResults = () => {
             <label className="badge1noshadow">
               <p className="badge1noshadowtext">Zone S</p>
             </label>
-            <label className="regionxyz">
+            <label className="regionxyz2">
               <div className="pendingicon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
